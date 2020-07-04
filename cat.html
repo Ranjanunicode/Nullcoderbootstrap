@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">NullCoder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        catagories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="cat.html">Programming</a>
+                        <a class="dropdown-item" href="cat.html">AstroPhysics</a>
+                        <a class="dropdown-item" href="cat.html">Aeronauticals</a>
+                        <a class="dropdown-item" href="cat.html">Internet Of Things</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="cat.html">More Interesting Topics</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html">contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signupModal">Signup</button>
+            </form>
+        </div>
+    </nav>
+    <!--login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Re-Enter Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </form>.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            PROGRAMMING
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result. Programming involves tasks such as: analysis, generating algorithms, profiling algorithms' accuracy and resource consumption,
+                        and the implementation of algorithms in a chosen programming language (commonly referred to as coding).The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code,
+                        which is directly executed by the central processing unit. The purpose of programming is to find a sequence of instructions that will automate the performance of a task (which can be as complex as an operating system) on a computer,
+                        often for solving a given problem. Proficient programming thus often requires expertise in several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ASTROPHYSICS
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Astrophysics is the branch of astronomy that employs the principles of physics and chemistry "to ascertain the nature of the astronomical objects, rather than their positions or motions in space".Among the objects studied are the Sun, other stars, galaxies,
+                        extrasolar planets, the interstellar medium and the cosmic microwave background.Emissions from these objects are examined across all parts of the electromagnetic spectrum, and the properties examined include luminosity, density,
+                        temperature, and chemical composition. Because astrophysics is a very broad subject, astrophysicists apply concepts and methods from many disciplines of physics, including classical mechanics, electromagnetism, statistical mechanics,
+                        thermodynamics, quantum mechanics, relativity, nuclear and particle physics, and atomic and molecular physics..
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            AERONAUTICS
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Aeronautics is the science or art involved with the study, design, and manufacturing of air flight–capable machines, and the techniques of operating aircraft and rockets within the atmosphere. The British Royal Aeronautical Society identifies the aspects
+                        of "aeronautical Art, Science and Engineering" and "the profession of Aeronautics (which expression includes Astronautics)." While the term originally referred solely to operating the aircraft, it has since been expanded to include
+                        technology, business, and other aspects related to aircraft.The term "aviation" is sometimes used interchangeably with aeronautics, although "aeronautics" includes lighter-than-air craft such as airships, and includes ballistic
+                        vehicles while "aviation" technically does not.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingfour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                            INTERNET OF THINGS
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        The Internet of things (IoT) is a system of interrelated computing devices, mechanical and digital machines provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
+                        The definition of the Internet of things has evolved due to the convergence of multiple technologies, real-time analytics, machine learning, commodity sensors, and embedded systems. Traditional fields of embedded systems, wireless
+                        sensor networks, control systems, automation (including home and building automation), and others all contribute to enabling the Internet of things. In the consumer market, IoT technology is most synonymous with products pertaining
+                        to the concept of the "smart home", covering devices and appliances (such as lighting fixtures, thermostats, home security systems and cameras, and other home appliances) that support one or more common ecosystems, and can be controlled
+                        via devices associated with that ecosystem, such as smartphones and smart speakers.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapseffive">
+                            ARTIFICIAL INTELLIGENCE
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        In computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of
+                        "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.Colloquially, the term "artificial intelligence" is often used to describe machines
+                        (or computers) that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving". rtificial intelligence was founded as an academic discipline in 1955, and in the years since has
+                        experienced several waves of optimism,followed by disappointment and the loss of funding (known as an "AI winter"),followed by new approaches, success and renewed funding.For most of its history, AI research has been divided into
+                        sub-fields that often fail to communicate with each other.These sub-fields are based on technical considerations, such as particular goals (e.g. "robotics" or "machine learning"),the use of particular tools ("logic" or artificial
+                        neural networks), or deep philosophical differences.Sub-fields have also been based on social factors (particular institutions or the work of particular researchers).
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                            PROBLEN SOLVING & WAY OF THINKING
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+                    <div class="card-body">
+                        computational thinking (CT) is a set of problem-solving methods that involve expressing problems and their solutions in ways that a computer could also execute.It involves the mental skills and practices for 1) designing computations that get computers
+                        to do jobs for us, and 2) explaining and interpreting the world as a complex of information processes.Those ideas range from basic CT for beginners to advanced CT for experts.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="container my-4">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 20120-2021 Company, Inc. <a href="#">Privacy</a> Â· <a href="#">Terms</a></p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
